@@ -1,0 +1,89 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body
+{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1500px;
+    background:burlywood;
+    margin: 50px;
+    border: 2px double;
+}
+.profile-text
+{
+margin: 10px;
+
+}
+.profile-text .image
+{
+    position: relative ;
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    overflow:hidden;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.profile-text .image img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.profile-text h2
+{
+text-transform: uppercase;
+margin-left: 85px;
+margin-top: 20px;
+}
+.profile-text span
+{
+text-transform: uppercase;
+margin-left: 100px;
+margin-top: 5px;
+font-size: 13px;
+
+}
+
+.title
+{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact-info ul li
+{
+    margin-top: 5px;
+    margin-left: 260px;
+    margin-bottom: 20px;
+    color:maroon;
+    font-weight: bold;
+}
+.achievements .link
+{
+    text-align: center;
+}
+
+
+
